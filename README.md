@@ -1,3 +1,39 @@
+
+# UI.
+
+### Create a single page, Infinite scroll implementation based on
+paginated JSON feeds.
+#You are provided the following feeds that provide data to render a bunch of articles.
+https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/1
+https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/2
+https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/3
+### And so on
+(If you run into a CORS issue, you can perhaps try adding a backend channel via ExpressJS or
+something).
+### Each feed is a collection of nodes. And each node looks like this.
+
+node: {
+title: &quot;Rocky Aur Rani Ki Prem Kahani: Alia Bhatt &amp; Ranveer
+Singh&#39;s BTS photos that broke the internet&quot;,
+nid_dont_use: &quot;1&quot;,
+field_photo_image_section:
+&quot;/files/styles/photogallery/public/alia-main_5.jpg?itok=MyGkzVzQ&quot;,
+path: &quot;/photos/alia-bhatt/rocky-aur-rani-ki-prem-kahani-alia-
+bhatt-ranveer-singh-s-bts-photos-broke-internet-956134&quot;,
+nid: &quot;956134&quot;,
+photo_image_nids: &quot;956129,956130,956131,956132,956133&quot;,
+ImageStyle_thumbnail:
+&quot;/files/styles/imagestyle_1_1/public/alia-main_5.jpg?itok=9gh31HFJ&quot;
+}
+
+# Task:
+### Render a 1 column view, by using the title, field_photo_image_section and path to
+render something like this.
+
+### When the user reaches the button of these page, pull in data from the next page.
+http://www.pinkvilla.com/photo-gallery-feed-page/page/1 and add the new items to the existing.
+list of articles and keep doing this until you reach a page with has no more data..
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
