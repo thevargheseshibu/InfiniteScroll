@@ -1,5 +1,5 @@
 
-# UI.
+# Infinite Scroll UI.
 
 ### Create a single page, Infinite scroll implementation based on paginated JSON feeds.
 
