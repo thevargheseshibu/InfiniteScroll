@@ -4,9 +4,9 @@
 ### Create a single page, Infinite scroll implementation based on paginated JSON feeds.
 
 # You are provided the following feeds that provide data to render a bunch of articles.
-https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/1
-https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/2
-https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/3
+#### https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/1
+#### https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/2
+#### https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/3
 
 ### And so on(If you run into a CORS issue, you can perhaps try adding a backend channel via ExpressJS orsomething).
 
