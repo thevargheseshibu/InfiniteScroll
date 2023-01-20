@@ -29,6 +29,7 @@ ImageStyle_thumbnail:
 
 # Task:
 ### Render a 1 column view, by using the title, field_photo_image_section and path torender something like this.
+![image](https://user-images.githubusercontent.com/43093582/213653047-f755e0cb-6046-4d71-a4ba-98b5176179f8.png)
 
 ### When the user reaches the button of these page, pull in data from the next page.
 
