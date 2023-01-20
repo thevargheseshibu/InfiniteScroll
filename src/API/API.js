@@ -1,14 +1,12 @@
 import axios from "axios";
 
-export function Example(route, color, setState) {
+export function APIFetch(route, apiData, setState) {
   axios
     .get(route)
     .then(function (response) {
       let data = [];
-      color && data.push(...color);
-
+      apiData && data.push(...apiData) ;
       data.push(...response.data.nodes);
-
       setState(data);
     })
     .catch(function (error) {
