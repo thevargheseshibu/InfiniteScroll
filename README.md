@@ -1,15 +1,15 @@
 
 # UI.
 
-### Create a single page, Infinite scroll implementation based on
-paginated JSON feeds.
+### Create a single page, Infinite scroll implementation based on paginated JSON feeds.
+
 #You are provided the following feeds that provide data to render a bunch of articles.
 https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/1
 https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/2
 https://englishapi.pinkvilla.com/app-api/v1/photo-gallery-feed-page/page/3
-### And so on
-(If you run into a CORS issue, you can perhaps try adding a backend channel via ExpressJS or
-something).
+
+### And so on(If you run into a CORS issue, you can perhaps try adding a backend channel via ExpressJS orsomething).
+
 ### Each feed is a collection of nodes. And each node looks like this.
 
 node: {
@@ -26,11 +26,12 @@ ImageStyle_thumbnail:
 &quot;/files/styles/imagestyle_1_1/public/alia-main_5.jpg?itok=9gh31HFJ&quot;
 }
 
+
 # Task:
-### Render a 1 column view, by using the title, field_photo_image_section and path to
-render something like this.
+### Render a 1 column view, by using the title, field_photo_image_section and path torender something like this.
 
 ### When the user reaches the button of these page, pull in data from the next page.
+
 http://www.pinkvilla.com/photo-gallery-feed-page/page/1 and add the new items to the existing.
 list of articles and keep doing this until you reach a page with has no more data..
 
@@ -47,7 +48,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm test`
